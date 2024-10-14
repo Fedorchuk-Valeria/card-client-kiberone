@@ -71,3 +71,47 @@ a {
 #extraInfo {
     padding-top: 8px;
 }
+
+@media screen and (max-device-width: 900px) {
+    html {
+        font-size: 43px;
+    }
+    
+    body {
+        padding: 5%;
+    }
+    
+    span {
+        padding: 18px;
+        border-radius: 15px;
+        width: 800px;
+        font-size: 42px;
+    }
+    
+    p {
+        font-size: 42px;
+    }
+    
+    a {
+        border-radius: 20px;
+        padding: 18px;
+        font-size: 42px;
+    }
+    
+    #profileImg {
+        width: 350px;
+        height: 350px;
+        margin-left: 85px;
+    }
+    
+    #walletImg {
+        width: 45px;
+        height: 45px;
+        margin-right: 8px;
+    }
+    
+    #infoWithImage {
+        width: 820px;
+        margin-bottom: 45px;
+    }
+}

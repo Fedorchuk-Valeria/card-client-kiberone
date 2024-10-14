@@ -60,3 +60,33 @@ button {
         transform: rotate(360deg);
     }
 }
+
+@media screen and (max-device-width: 900px) {
+    input {
+        background-color: #fff;
+        font-size: 45px;
+        border-radius: 30px;
+        border: 1px solid rgb(88, 86, 86);
+        margin: 5px;
+        width: 600px;
+        height: 100px;
+        padding: 7px;
+    }
+    
+    button {
+        font-size: 35px;
+        padding: 18px;
+        margin: 25px;
+        background-color: #F4C80E;
+        color: #000000;
+        border: none;
+        border-radius: 15px;
+        transition: background-color 0.3s ease;
+        width: 200px;
+        cursor: pointer;
+    }
+
+    body {
+        padding: 45%;
+    }
+}
