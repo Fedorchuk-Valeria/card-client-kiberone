@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'franklin_gothic_mediumregular';
-    src: url('https://fedorchuk-valeria.github.io/card-client-kiberone/fonts/ofont.ru_franklin_gothic_medium-webfont.woff2') format('woff2'),
-         url('https://fedorchuk-valeria.github.io/card-client-kiberone/fonts/ofont.ru_franklin_gothic_medium-webfont.woff') format('woff');
+
+    src: url("https://fedorchuk-valeria.github.io/card-client-kiberone/fonts/ofont.ru_Franklin Gothic Medium.ttf") format("truetype"); 
     font-weight: normal;
     font-style: normal;
 
