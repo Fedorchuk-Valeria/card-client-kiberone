@@ -3,11 +3,13 @@
 <head>
     <title>Профиль</title>
     <link rel="stylesheet" type="text/css" href="client_card_style.css">
+    <script type = "module" src="./set_client_card_style.js"></script>
 </head>
 <body>
-    <div>
+    <p id="loader">Получение данных...</p>
+    <div id="main">
         <section id="infoWithImage">
-            <img src="profile_img.png" id="profileImg">
+            <img src="profile_image.png" id="profileImg">
             <section id="userInfo">
                 <section id="account">
                     <img src="wallet_img.png" id="walletImg"><b id="kiberons">500К</b>
@@ -27,3 +29,8 @@
         </section>
     </div>
 </body>
+
+<script type="text/javascript"> 
+    var card = document.getElementById("main");
+    card.hidden = true;
+</script>

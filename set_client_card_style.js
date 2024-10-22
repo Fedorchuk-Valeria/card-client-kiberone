@@ -1,4 +1,5 @@
-window.addEventListener("load", (e) => {
+window.addEventListener("DOMContentLoaded", (e) => {
+    
     var IS_IPHONE = navigator.userAgent.match(/iPhone/i) != null;
     console.log(IS_IPHONE)
     if (IS_IPHONE) {
@@ -8,4 +9,14 @@ window.addEventListener("load", (e) => {
         link.href="client_card_style_iphone.css";
         document.getElementsByTagName("head")[0].appendChild(link);
     }
+
+    setTimeout(() => { 
+        var loader = document.getElementById("loader");
+        loader.remove()
+        var card = document.getElementById("main");
+        card.hidden = false;
+
+    }, 3000);
+
 })
+
