@@ -30,15 +30,13 @@ body {
 }
 
 select {
-    overflow-y: auto;
-    font-size: 58px;
-    border: none; 
-    height: 300px;
+    font-size: 50px;
+    padding: 10px;
+    border: 5px solid #eedd95;
+    border-radius: 8px;
 }
 
 option {
-    border: 6px solid #F6C90E;
-    border-radius: 15px;
     margin: 20px;
     text-align: center;
     padding: 15px;
@@ -49,9 +47,9 @@ button {
     color: #ffffff;
     border-radius: 15px;
     padding: 25px;
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'franklin_gothic_mediumregular';
     margin: 15px;
     border: none;
-    width: 330px;
+    width: 360px;
 }

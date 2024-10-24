@@ -30,15 +30,13 @@ body {
 }
 
 select {
-    overflow-y: auto;
-    font-size: 18px;
-    border: none; 
-    height: 100px;
+    padding: 3px;
+    font-size: 16px;
+    border: 2px solid #eedd95;
+    border-radius: 5px;
 }
 
 option {
-    border: 2px solid #F6C90E;
-    border-radius: 5px;
     margin: 10px;
     text-align: center;
     padding: 3px;
