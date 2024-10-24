@@ -31,7 +31,7 @@ body {
 
 select {
     padding: 3px;
-    font-size: 16px;
+    font-size: 26px;
     border: 2px solid #eedd95;
     border-radius: 5px;
 }
@@ -47,7 +47,7 @@ button {
     color: #ffffff;
     border-radius: 10px;
     padding: 8px;
-    font-size: 12px;
+    font-size: 22px;
     font-family: 'franklin_gothic_mediumregular';
     margin: 10px;
     border: none;
