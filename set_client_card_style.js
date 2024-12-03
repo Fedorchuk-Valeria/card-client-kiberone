@@ -10,13 +10,13 @@ window.addEventListener("DOMContentLoaded", (e) => {
         document.getElementsByTagName("head")[0].appendChild(link);
     }
 
-    setTimeout(() => { 
-        var loader = document.getElementById("loader");
-        loader.remove()
-        var card = document.getElementById("main");
-        card.hidden = false;
+    // setTimeout(() => { 
+    //     var loader = document.getElementById("loader");
+    //     loader.remove()
+    //     var card = document.getElementById("main");
+    //     card.hidden = false;
 
-    }, 3000);
+    // }, 3000);
 
 })
 
