@@ -3,10 +3,11 @@
 <head>
     <title>Профиль</title>
     <link rel="stylesheet" type="text/css" href="client_card_style.css">
+    <link rel="stylesheet" type="text/css" href="spinner_style.css">
     <script type = "module" src="./set_client_card_style.js"></script>
 </head>
 <body>
-    <p id="loader">Получение данных...</p>
+    <div id="loader"></div>
     <div id="main">
         <section id="infoWithImage">
             <img src="profile_image.png" id="profileImg">
@@ -19,13 +20,20 @@
                 <b id="location" style="font-family: 'pf_beausans_prolight';">Локация</b>
             </section>
         </section>
-        <a href="https://kiber-one.club/">Перейти в личный кабинет</a>
+        <a>Личный кабинет KIBERone</a>
         <section id="extraInfo">
             <p>Тема следующего занятия</p>
             <span id="subject">Scratch. Знакомство с визуальным языком программирования</span>
             <p>Обратная связь от тьютора</p>
-            <span id="resume"><div class="item">Успеваемость все так же на высоте! Поддерживает все идеи тьютора относительно дополнительных, креативных заданий. С ребятами коммуницирует отлично. В процессе урока отвечает на вопросы, выполняет все инструкции. Да, порой бывает отвлекается на разговоры с соседом Яном,но на замечания реагирует адекватно, быстро возвращается к работе. Приятный и способный ученик. Его заинтересованность и стремления приведут к успеху!</div></span>
-            <!-- <center><div class="loader"></div></center> -->
+            <span id="resume"><div class="item">Мирослав хоть и по началу был не очень заинтересован в ответе на вопросы и старался делать всё больше в своём индивидуальном темпе, стоит отметить что на последних занятиях он проявляет очень хорошие навыки как при выполнении задач, так и при ответах. Целеустремлён, старателен, является одним из учеников который всегда старается достичь результата одним из первых и даже находит время на помощь другим ребятам. По этому Мирослав очень большой молодчина :)</div></span>
+            <!-- <a href="#feedbackForm">Оставить отзыв</a> -->
+        </section>
+        <section id="feedback">
+            <i>Оставьте обратную связь по работе нашей КИБЕР-школы!<br></i>
+            <form id="feedbackForm">
+                <textarea placeholder="Отзыв" id="feedbackInput"></textarea>
+                <button id="sendButton">Отправить</button>
+            </form>
         </section>
     </div>
 </body>

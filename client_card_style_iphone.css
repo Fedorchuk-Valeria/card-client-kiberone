@@ -15,14 +15,15 @@
 }
 
 html {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
     font-family: 'pf_beausans_prolight';
     font-size: 43px;
+    background: #fff;
 }
 
 body {
-    background: #fff;
+    /* background: #fff; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,13 +49,49 @@ p {
     font-family: 'franklin_gothic_mediumregular';
 }
 
-a {
+a, button {
     background-color: #F6C90E;
     color: #ffffff;
     border-radius: 20px;
     padding: 18px;
     text-decoration: none;
     font-size: 42px;
+    border: none
+}
+
+i {
+    font-size: 16px;
+    background-color: #fff;
+}
+
+textarea {
+    width: 800px;
+    height: 180px;
+    font-size: 40px;
+    border: 5px solid #F6C90E; 
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 16px;
+    margin-left: -2px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 4px; */
+}
+
+#sendButton {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#feedback {
+    margin-top: 8px;
+    margin-bottom: 10px;
 }
 
 #profileImg {
@@ -88,30 +125,4 @@ a {
 
 #extraInfo {
     padding-top: 8px;
-}
-
-.visible {
-    margin: 50px;
-    content: "";
-    width: 50px;
-    height: 50px;
-    border: 5px solid #312f32;
-    border-top-color: transparent;
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-.hidden {
-    opacity: 0;
-    transition: opacity 0.5s ease-out;
-    pointer-events: none;
 }
