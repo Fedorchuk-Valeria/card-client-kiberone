@@ -23,8 +23,9 @@ textarea {
     margin-left: -1vw;
 }
 
-#feedbackForm:focus-within {
+#main:focus-within {
     position: fixed;
+    margin-bottom: 5vw;
 }
 
 
