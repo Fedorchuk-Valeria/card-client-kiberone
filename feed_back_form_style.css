@@ -14,8 +14,6 @@ i {
 }
 
 textarea {
-    width: 81.5vw;
-    height: 20vw;
     font-size: 4.5vw;
     border: 0.5vw solid #F6C90E; 
     margin-bottom: 2vw;
@@ -25,9 +23,11 @@ textarea {
     margin-left: -1vw;
 }
 
-textarea:focus {
+#feedbackForm:focus-within {
     position: fixed;
 }
+
+
 
 form {
     display: flex;

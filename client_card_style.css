@@ -58,6 +58,11 @@ a {
     border: none;
 }
 
+textarea {
+    width: 255px;
+    height: 80px;
+}
+
 /* i {
     font-size: 10px;
     background-color: #fff;
