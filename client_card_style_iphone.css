@@ -48,7 +48,7 @@ p {
     font-family: 'franklin_gothic_mediumregular';
 }
 
-a, button {
+a {
     background-color: #F6C90E;
     color: #ffffff;
     border-radius: 20px;
@@ -57,12 +57,12 @@ a, button {
     font-size: 42px;
     border: none
 }
-
+/* 
 i {
     font-size: 16px;
     background-color: #fff;
-}
-
+} */
+/* 
 textarea {
     width: 800px;
     height: 180px;
@@ -72,16 +72,16 @@ textarea {
     border-radius: 15px;
     padding: 16px;
     margin-left: -2px;
-}
+} */
 
-form {
+/* form {
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* padding: 4px; */
-}
+    padding: 4px;
+} */
 
-#sendButton {
+/* #sendButton {
     width: 250px;
     display: flex;
     justify-content: center;
@@ -91,7 +91,7 @@ form {
 #feedback {
     margin-top: 8px;
     margin-bottom: 10px;
-}
+} */
 
 #profileImg {
     width: 350px;

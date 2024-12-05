@@ -20,3 +20,12 @@ window.addEventListener("DOMContentLoaded", (e) => {
 
 })
 
+
+// document.getElementById("feedbackInput").addEventListener("focus", event =>  {
+//     console.log("focus")
+//     console.log(document.getElementsByTagName("html").height)
+//     document.getElementsByTagName("html").height = "130vh";
+//     //document.getElementsByTagName("html").position = "fixed";
+//     console.log(document.getElementsByTagName("html").height)
+// })
+
