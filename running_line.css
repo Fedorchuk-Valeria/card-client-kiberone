@@ -1,0 +1,24 @@
+#warning {
+    overflow: hidden;
+    width: 100vw;
+    margin-top: 5vw;
+}
+
+.warningText {
+    font-size: 3vw;
+    text-align: center;
+    white-space: nowrap;
+    animation: text 5s infinite linear;
+    /* overflow: hidden; */
+    margin: 0;
+}
+
+@keyframes text {
+    0%{
+      transform: translate(0, 0);
+    }
+    
+    100%{
+      transform: translate(-100%, 0);
+    }
+}

@@ -4,8 +4,9 @@
     <title>Профиль</title>
     <link rel="stylesheet" type="text/css" href="client_card_style.css">
     <!-- <link rel="stylesheet" type="text/css" href="spinner_style.css"> -->
-    <script type = "module" src="./set_client_card_style.js"></script>
+    <!-- <script type = "module" src="./set_client_card_style.js"></script> -->
     <link rel="stylesheet" type="text/css" href="feed_back_form_style.css">
+    <link rel="stylesheet" type="text/css" href="running_line.css">
 </head>
 <body>
     <!-- <div id="loader"></div> -->
@@ -21,7 +22,10 @@
                 <b id="location" style="font-family: 'pf_beausans_prolight';">Локация</b>
             </section>
         </section>
-        <a>Личный кабинет KIBERone</a>
+        <a>Перейти в KIBERshop</a>
+        <div id="warning">
+        <p class="warningText">*количество товара ограничено! ПРИ ОФОРМЛЕНИИ ПРЕДЗАКАЗА КИБЕРОНЫ СПИСЫВАЮТСЯ ТОЛЬКО ПРИ ПОЛУЧЕНИИ!</p>
+        </div>
         <section id="extraInfo">
             <p>Тема следующего занятия</p>
             <span id="subject">Scratch. Знакомство с визуальным языком программирования</span>
@@ -33,7 +37,9 @@
             <i>Оставьте обратную связь по работе нашей КИБЕР-школы!<br></i>
             <form id="feedbackForm">
                 <textarea placeholder="Отзыв" id="feedbackInput"></textarea>
-                <button id="sendButton">Отправить</button>
+                <div id="forSendButton">
+                    <button id="sendButton">Отправить</button>
+                </div>
             </form>
         </section>
     </div>
