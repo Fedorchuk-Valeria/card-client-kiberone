@@ -11,6 +11,7 @@
     animation: text 5s infinite linear;
     /* overflow: hidden; */
     margin: 0;
+    padding-left: 100vw;
 }
 
 @keyframes text {
