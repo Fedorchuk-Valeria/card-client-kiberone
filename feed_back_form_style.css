@@ -9,7 +9,7 @@ button {
 }
 
 i {
-    font-size: 3vw;
+    font-size: 2.8vw;
     background-color: #fff;
 }
 
@@ -21,7 +21,7 @@ textarea {
     border-radius: 2vw;
     padding: 3vw;
     /* margin-left: -1vw; */
-    width: 90vw;
+    width: 81vw;
 }
 
 
@@ -41,7 +41,7 @@ form {
 }
 
 #feedback {
-    margin-top: 1vw;
+    margin-top: 3vw;
     margin-bottom: 3vw;
     
 }

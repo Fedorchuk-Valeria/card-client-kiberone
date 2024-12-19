@@ -21,14 +21,15 @@ html {
     /* background-color: #ffff; */
 }
 
+
 body {
     background: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: fit-content;
     padding: 5vw;
-    width: 100vw;
     /* overflow: hidden; */
 }
 
@@ -37,16 +38,16 @@ span {
     padding: 3vw;
     border-radius: 2vw;
     display: flex;
-    width: 90vw;
-    max-height: 40vw;
-    font-size: 5vw;
+    width: 81vw;
+    max-height: 50vw;
+    font-size: 4vw;
     overflow: auto;
     scroll-snap-type: y mandatory;
     border: 0.5vw solid #F6C90E; 
 }
 
 p {
-    font-size: 5vw;
+    font-size: 4vw;
     font-family: 'franklin_gothic_mediumregular';
 }
 
@@ -91,7 +92,7 @@ textarea {
 
 #infoWithImage {
     display: flex;
-    width: 100vw;
+    width: 100%;
     align-items: end;
     margin-bottom: 5vw;
     justify-content: space-between;

@@ -1,17 +1,19 @@
 #warning {
     overflow: hidden;
-    width: 100vw;
-    margin-top: 5vw;
+    width: 88vw;
+    margin-top: 8vw;
+    margin-bottom: -3vw;
 }
 
 .warningText {
-    font-size: 3vw;
+    font-size: 4vw;
     text-align: center;
     white-space: nowrap;
-    animation: text 5s infinite linear;
+    animation: text 8s infinite linear;
     /* overflow: hidden; */
     margin: 0;
     padding-left: 100vw;
+    padding-right: 100vw;
 }
 
 @keyframes text {
